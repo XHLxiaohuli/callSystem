@@ -1,0 +1,33 @@
+
+// 修改vux样式
+.weui-dialog {
+    max-width: 655px !important;
+  }
+.weui-dialog__bd{
+    padding: 0 !important;
+    height: 385px !important;
+}
+.weui-dialog__ft{
+    display: none !important;
+}
+.weui-progress__bar{
+    background: #0a1b2a !important;
+}
+.weui-progress__inner-bar{
+    background: #fe741f !important;
+}
+.weui-toast_text .weui-toast__content{
+    padding: 0 !important;
+    padding: 30px !important;
+  }
+  .vux-cell-primary{
+    flex: none !important;
+    width: 350px;
+  }
+  .weui-cell_access .weui-cell__ft{
+      width: 375px;
+      padding-right: 0 !important;
+  }
+  .weui-cell_access .weui-cell__ft:after{
+      z-index: -1000;
+  }
